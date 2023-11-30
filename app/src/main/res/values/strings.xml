@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="user">User</string>
+    <string name="admin">Admin</string>
+    <string name="todo">TODO</string>
+    <string name="pharmacy_app">Pharmacy App</string>
+    <string name="exit">EXIT</string>
+    <string name="name">name</string>
+    <string name="delete_a_medicine">DELETE A MEDICINE</string>
+    <string name="hello_in_admain_page">Hello in admain page :)</string>
+    <string name="add_new_medicine">Add new medicine</string>
+    <string name="search_about_medicin">search about medicin</string>
+    <string name="hello_in_user_page">Hello in user page</string>
+</resources>

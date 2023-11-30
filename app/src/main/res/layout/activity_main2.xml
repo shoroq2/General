@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.assignment1.MainActivity2">
+
+    <TextView
+        android:id="@+id/datetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_above="@+id/bt22"
+        android:layout_alignTop="@+id/nametxt"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="85dp"
+        android:layout_toEndOf="@+id/Description" />
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="29dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/bt22"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginBottom="409dp"
+        android:layout_toEndOf="@+id/name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.431"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt22"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <Button
+        android:id="@+id/bt22"
+        android:layout_width="385dp"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="209dp"
+        android:text="@string/delete_a_medicine"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp" />
+
+    <EditText
+        android:id="@+id/Text1"
+        android:layout_width="388dp"
+        android:layout_height="119dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="595dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:text="@string/hello_in_admain_page"
+        android:textColor="#330A7C"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <Button
+        android:id="@+id/bt21"
+        android:layout_width="390dp"
+        android:layout_height="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="460dp"
+        android:text="@string/add_new_medicine"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/bt22"
+        app:layout_constraintTop_toBottomOf="@+id/Text1"
+        app:layout_constraintVertical_bias="0.031"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bt21"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-46dp"
+        android:background="#090000"
+        android:text="@string/name"
+        android:textColor="#FAF6F6"
+        android:textColorHighlight="#4CAF50"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="74dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="318dp"
+        android:background="#070707"
+        android:text="Date"
+        android:textColor="#FBFAFA"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="371dp"
+        android:background="#020202"
+        android:text="Description"
+        android:textColor="#FAF7F7"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <TextView
+        android:id="@+id/Descriptiontxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="326dp"
+        android:layout_toEndOf="@+id/date" />
+
+    <Button
+        android:id="@+id/resultbutton"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="54dp"
+        android:text="show the list" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Listresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/resultbutton"
+        android:layout_marginBottom="22dp" />
+
+</RelativeLayout>

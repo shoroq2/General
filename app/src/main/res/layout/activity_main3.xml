@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C2E6F6"
+    tools:context="com.example.assignment1.MainActivity3">
+
+    <Button
+        android:id="@+id/searchbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="348dp"
+        android:text="@string/search_about_medicin"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="235dp" />
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="388dp"
+        android:layout_height="119dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="602dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType=""
+        android:text="@string/hello_in_user_page"
+        android:textColor="#011E2B"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="196dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="476dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+  <EditText
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="199dp"
+        android:ems="10"
+        android:inputType="text"
+    android:autofillHints=""
+      tools:ignore="LabelFor" />
+</RelativeLayout>
